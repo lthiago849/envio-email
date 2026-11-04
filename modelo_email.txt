@@ -1,0 +1,12 @@
+Assunto: Formulário para preenchimento - {nome}
+
+Prezado(a) {nome},
+
+Espero que esteja bem.
+
+Segue em anexo o seu formulário individual. Por gentileza, preencha e devolva respondendo a este e-mail.
+
+Qualquer dúvida, estou à disposição.
+
+Atenciosamente,
+Thiago
