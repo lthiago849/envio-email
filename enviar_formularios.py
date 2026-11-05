@@ -108,8 +108,8 @@ def main():
     aqui = Path(__file__).resolve().parent
     carregar_env(aqui)
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("csv", nargs="?", default=aqui / "e-mail_teste.csv",
-                    help="CSV com colunas cpf;nome;email (padrão: e-mail_teste.csv)")
+    ap.add_argument("csv", nargs="?", default=aqui / "emails_especialistas_completo(1).csv",
+                    help="CSV com colunas cpf;nome;email (padrão: emails_especialistas_completo(1).csv)")
     ap.add_argument("--formularios", default=aqui / "formularios", type=Path)
     ap.add_argument("--modelo", default=aqui / "modelo_email.txt", type=Path)
     ap.add_argument("--enviar", action="store_true", help="envia de verdade")

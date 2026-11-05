@@ -1,3 +1,10 @@
 .env
 previa/
 enviados.csv
+__pycache__/
+
+# Dados pessoais (CPF, nome, e-mail): não vão para o GitHub, são enviados por outro meio
+*.csv
+!e-mail_teste.csv
+formularios/*
+!formularios/.gitkeep
